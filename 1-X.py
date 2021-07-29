@@ -1,0 +1,39 @@
+#q1
+a=80
+b=75
+c=55
+print((a+b+c)/3.0)
+#q2
+n=13
+if n%2==0:
+    print("짝수임")
+else:
+    print("홀수임")
+#q3
+j='881120-1068324'
+yymmdd=j[:6]
+num=j[7:]
+print(yymmdd)
+print(num)
+#q4
+m='a:b:c:D'
+print(m.replace(":","#"))
+#q5
+li=[1,3,4,5,2]
+li.sort()
+print(li)
+#q6
+l2=['life','is','too','short']
+s=' '.join(l2)
+print(s)
+#q7
+t=1,2,3
+a=list(t)
+a.append(4)
+b=tuple(a)
+print(b)
+#q8
+a=[1,1,1,1,2,2,3,3,4,5,6,7,8]
+aSet=set(a)
+b=list(aSet)
+print(b)
